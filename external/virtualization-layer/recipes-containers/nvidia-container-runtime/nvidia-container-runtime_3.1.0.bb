@@ -44,6 +44,6 @@ do_install_append_tegra() {
 
 RDEPENDS_${PN} = "\
     nvidia-container-toolkit \
-    docker-ce \
+    docker \
 "
 RDEPENDS_${PN}-dev += "bash make"
